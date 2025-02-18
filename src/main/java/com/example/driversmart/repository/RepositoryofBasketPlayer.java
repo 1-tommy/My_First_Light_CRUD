@@ -1,4 +1,9 @@
 package com.example.driversmart.repository;
 
-public interface RepositoryofBasketPlayer {
+import com.example.driversmart.entity.BasketballPlayer;
+import org.springframework.data.repository.Repository;
+
+
+public interface RepositoryofBasketPlayer extends Repository<BasketballPlayer , Long> {
+
 }

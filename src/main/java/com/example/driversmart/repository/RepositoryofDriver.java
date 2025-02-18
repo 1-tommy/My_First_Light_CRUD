@@ -2,10 +2,12 @@ package com.example.driversmart.repository;
 
 
 import com.example.driversmart.entity.Driver;
+import jakarta.persistence.Id;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 
-@org.springframework.stereotype.Repository
-public interface Repository extends JpaRepository<Driver, Long> {
+@Repository
+public interface RepositoryofDriver extends JpaRepository<Driver, Long> {
 
 }
